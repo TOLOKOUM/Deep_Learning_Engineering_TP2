@@ -1,2 +1,8 @@
+# Ignorer l’environnement virtuel
 .venv/
+
+# Ignorer MLflow (si tu ne veux pas le pousser)
 mlruns/
+
+# (Optionnel) Ignorer les modèles géants
+*.h5
